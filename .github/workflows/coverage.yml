@@ -43,6 +43,6 @@ jobs:
           args: --verbose --all-features --workspace
           out-type: Xml
       - name: Upload to codecov.io
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v7
         with:
           fail_ci_if_error: true
